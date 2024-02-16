@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <footer class="bg-[#659f8f] ml-4">
+        <div class="container px-6 py-12 mx-auto">
+            
+                <div class="container px-6 py-12 mx-auto">
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                        <div class="sm:col-span-2">
+                            <h1 class="max-w-lg text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl " >Subscribe to our newsletter for updates</h1>
+                            <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+                                <input placeholder="Enter your email" id="email"  class=" w-auto mr-4 px-4 py-2 text-black bg-white border rounded-md   focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]" type="text">
+                                <!-- button, add classes to style its background, text, hover, and focus states. -->
+                                <button class="w-auto text-center font-semibold text-white px-6 py-2.5 mr-4 bg-[#d86943] rounded-md hover:bg-[#d86943] focus:bg-[#d86943] focus:outline-none  focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943] hover:scale-105 transition duration-300">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- update the p tags to include classes for font weight and color. -->
+                            <p class="text-black fw-1000 font-semibold">Quick Link</p>
+                            <div class="flex flex flex-col mx-auto mt-6 space-y-3 md:space-y-0">
+                                <a href="#" class="md-2 text-[#313131] fw-600 hover:scale-105 hover:fw-1000 hover:bg-[#d86943] hover:text-white hover:text-center hover:rounded-md hover:transition hover:duration-800" aria-label="Home_link">Home</a>
+                                <a href="#" class="md-2 text-[#313131] fw-600 hover:scale-105 hover:fw-1000 hover:bg-[#d86943] hover:text-white hover:text-center hover:rounded-md hover:transition hover:duration-800" aria-label="WhoWeAre_link">Who We Are</a>
+                                <a href="#" class="md-2 text-[#313131] fw-600 hover:scale-105 hover:fw-1000 hover:bg-[#d86943] hover:text-white hover:text-center hover:rounded-md hover:transition hover:duration-800" aria-label="OurPhilosophy_link">Our Philosophy</a>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-black fw-1000 font-semibold" >Technologies</p>
+                            <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 ">
+                                <a href="#" class="md-2 text-[#313131] fw-600 hover:scale-105 hover:fw-1000 hover:bg-[#d86943] hover:text-white hover:text-center hover:rounded-md hover:transition hover:duration-800" aria-label="HTML_link">HTML</a>
+                                <a href="#" class="md-2 text-[#313131] fw-600 hover:scale-105 hover:fw-1000 hover:bg-[#d86943] hover:text-white hover:text-center hover:rounded-md hover:transition hover:duration-800" aria-label="CSS_link">CSS</a>
+                                <a href="#" class="md-2 text-[#313131] fw-600 hover:scale-105 hover:fw-1000 hover:bg-[#d86943] hover:text-white hover:text-center hover:rounded-md hover:transition hover:duration-800" aria-label="JavaScript_link">JavaScript</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-6 border-[#d86943]">
+                    
+                    <div class="flex items-center justify-between">
+                         <!-- Add social media icons with appropriate classes for layout and styling -->
+                         <a href="#">
+                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="" aria-label="Codespace_logo">
+                        </a>
+
+                        <a href="#" class="text-[#d86943] hover:text-[#659f8f]">
+                            
+                            <!-- Add your social media icon SVG here -->
+                            <img class="w-auto h-7" src="github-mark-white.png" alt="" aria-label="GitHub_logo">
+                            
+                        </a>
+
+                        <a href="#" class="text-[#d86943] hover:text-[#659f8f]">
+                            <img class="w-auto h-7" src="linkedin-svgrepo-com.svg" alt="" aria-label="LinkedIn_logo">
+                        </a>
+                            <!-- Add more social media icons as needed -->
+                       
+                    </div>
+                </div>
+            
+        </div>    
+    </footer>
+</body>
+</html>
+
